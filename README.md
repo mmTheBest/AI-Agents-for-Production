@@ -207,6 +207,35 @@ Below is a curated, **benefit oriented** collection of open source agent project
 
 ---
 
+## Part3: Production Patterns — How to Ship Agents Safely (Without Breaking Your Ops)
+Part 1 motivates why agents matter, and Part 2 surveys what exists. This section focuses on engineering patterns that reduce operational risk and make agent behavior reproducible under real-world conditions.
+
+### 1) Define an Interface Contract and Failure Model
+An agent is easiest to operationalize when it behaves like a service with an explicit interface. The contract specifies (i) inputs and preconditions, (ii) outputs and their expected structure, (iii) invariants the agent must not violate, and (iv) a failure model describing what “safe failure” looks like. In practice, contracts are enforced with structured schemas for tool inputs/outputs, validation of generated actions, and clear fallback behavior when validation fails.
+
+A useful design exercise is to classify failures by severity and reversibility. This tends to surface the small number of actions that require stronger controls (e.g., irreversible writes, external communications, data access with regulatory exposure). The goal is not to avoid all errors; it is to ensure that errors are bounded, detectable, and recoverable.
+
+### 2) Build a Deterministic Control Layer Around the Model
+The model should not be the orchestrator of the entire system. Production systems typically wrap the model in a deterministic control layer that manages state, decides which tools are available, and applies policy checks to proposed actions. Common mechanisms include finite-state workflows (or graph-based runtimes), explicit gating rules for tool access, and typed function calling interfaces.
+
+This separation materially improves debuggability. When behavior is inconsistent, the investigation can distinguish between policy violations, tool failures, state bugs, and model reasoning errors.
+
+### 3) Reliability Engineering for Tool Calls
+Agent systems inherit the failure modes of every downstream dependency. Reliability is therefore dominated by the tool layer: timeouts, retries with backoff and jitter, circuit breakers, and idempotency for side-effecting operations. For actions that can be duplicated (emails, ticket updates, payments, form submissions), idempotency keys or deduplication checks are essential. For long-running jobs, checkpointing state and resuming from a known step prevents expensive rework and reduces partial-failure ambiguity.
+
+### 4) Observability and Postmortem-Grade Tracing
+Operational confidence comes from the ability to reconstruct what happened. Minimum observability includes structured event logs for tool calls, inputs/outputs, and policy decisions; correlation identifiers that propagate across services; and a run artifact that summarizes the execution path. At higher maturity, tracing is complemented by redaction-aware logging (to avoid leaking sensitive content) and dashboards/alerts based on SLOs (latency, error rate, “stuck run” rate, and escalation rate).
+
+### 5) Evaluation as a Continuous Process, Not a One-Off
+Agents change as prompts, tools, and models evolve. A production practice is to maintain a small, representative evaluation suite and run it routinely (CI or scheduled), with a rubric that matches the task: correctness, completeness, safety, tone, and latency. For retrieval-augmented systems, evaluation typically separates retrieval quality from generation quality and measures source faithfulness explicitly. The primary purpose is regression detection: identifying when an update improves one dimension but degrades another.
+
+### 6) Security and Access Controls as System Design
+Security is determined by system boundaries. Effective deployments isolate environments (dev/staging/prod), separate credentials per agent and per environment, and apply least-privilege scopes at the API level. Secrets are handled through dedicated secret managers, rotated regularly, and never exposed to model context unless strictly necessary. Where possible, sensitive actions are mediated through proxy services that enforce policy and audit logging independent of the model.
+
+### 7) Deployment and Change Management
+Deployment for agents resembles deployment for other services, with additional emphasis on behavior drift. Incremental rollout (canaries, limited cohorts) reduces blast radius. Versioning is applied not only to code, but also to prompts, tool schemas, and policy rules, enabling rollback when behavior regresses. Incident response benefits from runbooks that specify how to disable tool access, switch the agent into a reduced capability mode, and route work to alternative procedures.
+
+---
 
 > Want help tailoring these patterns to your stack and data? Open an issue with your use case—or reach out if you want hands-on help.  
 
