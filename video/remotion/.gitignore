@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# OS / env
+.DS_Store
+.env
+
+# Remotion outputs
+out/
+
+# Generated audio for demos (pipeline will generate this per-run)
+public/narration.mp3
