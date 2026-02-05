@@ -107,6 +107,15 @@ Below is a curated, **benefit oriented** collection of open source agent project
 
 ---
 
+### Give Agents Persistent Memory (Stateful Agents)
+
+| Project | What it helps you achieve |
+|---|---|
+| **Letta** — [GitHub](https://github.com/letta-ai/letta) | Build stateful agents with explicit memory and long-lived context management for production workflows. |
+| **mem0** — [GitHub](https://github.com/mem0ai/mem0) | Add a drop-in memory layer to agents so they can remember users, tasks, and prior outcomes across sessions. |
+
+---
+
 ### Find and Close More Sales with Smarter Outreach
 
 | Project | What it helps you achieve |
@@ -154,7 +163,7 @@ Below is a curated, **benefit oriented** collection of open source agent project
 | Project | What it helps you achieve |
 |---|---|
 | **docTR** — [GitHub](https://github.com/mindee/doctr) | Extract text and tables from invoices/receipts/forms with high quality OCR. |
-| **Donut** — [GitHub](https://github.com/clovaai/donut) | Parse structured documents without traditional OCR to accelerate AP/AR workflows. |
+| **Unstructured** — [GitHub](https://github.com/Unstructured-IO/unstructured) | Convert messy PDFs/HTML/docs into clean, structured elements you can route into extraction, review, and downstream automation. |
 | **Agent for RFP Response** — [GitHub](https://github.com/microsoft/agent-for-rfp-response-solution-accelerator) | Draft responses to RFPs by ingesting requirements, summarizing demands, and generating proposals. |
 | **SAP TechEd AI160** — [GitHub](https://github.com/SAP-samples/teched2025-AI160) | Learn hands on patterns for building agents that connect to enterprise data/services. |
 | **SAP TechEd AI165** — [GitHub](https://github.com/SAP-samples/teched2025-AI165) | Explore integration scenarios to extend agents across SAP and partner ecosystems. |
