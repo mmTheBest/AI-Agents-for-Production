@@ -90,7 +90,7 @@ Below is a curated, **benefit oriented** collection of open source agent project
 | **Botpress** — [GitHub](https://github.com/botpress/botpress) | Ship multichannel chatbots (web, WhatsApp, FB Messenger) using a visual builder and plugin ecosystem. |
 | **Microsoft Call Center AI** — [GitHub](https://github.com/microsoft/call-center-ai) | Stand up an LLM powered voice agent for call routing, FAQs, and live agent handoff. |
 | **Azure Realtime Call Center Accelerator** — [GitHub](https://github.com/Azure-Samples/realtime-call-center-accelerator) | Deploy a real time phone agent with speech, telephony, and analytics in a few steps. |
-| **Vocode Core** — [GitHub](https://github.com/vocodedev/vocode-core) | Build streaming voice assistants (phone/Zoom/web) that converse and take actions. |
+| **LiveKit Agents** — [GitHub](https://github.com/livekit/agents) | Build real-time voice AI agents with low latency audio/video pipelines and telephony integrations. |
 | **Pipecat** — [GitHub](https://github.com/pipecat-ai/pipecat) | Create low latency voice agents with modular STT/TTS components and telephony hooks. |
 
 ---
@@ -120,7 +120,6 @@ Below is a curated, **benefit oriented** collection of open source agent project
 
 | Project | What it helps you achieve |
 |---|---|
-| **SalesGPT** — [GitHub](https://github.com/filip-michalsky/SalesGPT) | Generate research backed outreach sequences (email/voice/SMS) with human in the loop approval. |
 | **CRMArena** — [GitHub](https://github.com/SalesforceAIResearch/CRMArena) | Benchmark and improve CRM style agent behaviors (routing, summarization, follow ups). |
 | **Slack AI Chatbot (template)** — [GitHub](https://github.com/slack-samples/bolt-python-ai-chatbot) | Add an internal enablement bot to summarize threads, draft replies, and surface answers from your KB. |
 
@@ -153,7 +152,6 @@ Below is a curated, **benefit oriented** collection of open source agent project
 |---|---|
 | **OpenHands** — [GitHub](https://github.com/OpenHands/OpenHands) | Get an autonomous developer/ops agent that edits code, runs tools, and follows multi‑step plans. |
 | **OpenDevin** — [GitHub](https://github.com/OpenDevin/OpenDevin) | Use a software engineer agent that reads repos, proposes changes, and executes tasks. |
-| **RepoAgent** — [GitHub](https://github.com/OpenBMB/RepoAgent) | Summarize, document, and navigate large codebases with repository‑aware reasoning. |
 | **K8sGPT** — [GitHub](https://github.com/k8sgpt-ai/k8sgpt) | Diagnose Kubernetes issues and explain fixes in plain language for SRE and platform teams. |
 
 ---
@@ -175,7 +173,6 @@ Below is a curated, **benefit oriented** collection of open source agent project
 | Project | What it helps you achieve |
 |---|---|
 | **FoloUp** — [GitHub](https://github.com/FoloUp/FoloUp) | Run voice based candidate interviews and capture structured notes automatically. |
-| **AI‑Recruitment‑Agent** — [GitHub](https://github.com/Ancastal/AI-Recruitment-Agent) | Coordinate a multi‑agent pipeline for resume screening and candidate summarization. |
 | **Resume‑Matcher** — [GitHub](https://github.com/srbhr/Resume-Matcher) | Align resumes to job descriptions to highlight must have skills and gaps. |
 
 ---
