@@ -81,6 +81,22 @@ Now imagine what ten well-scoped agents could do.
 ## Part2: Open Source AI Agent Examples You Can Explore Today
 Below is a curated, **benefit oriented** collection of open source agent projects. Each entry links to its repo and states what it helps you achieve.
 
+**Entry format:** **Project** — [GitHub](link) | One‑sentence outcome.
+
+**Table of contents (with counts):**
+- [Automate Customer Support and Improve Response Time (6)](#automate-customer-support-and-improve-response-time)
+- [Answer Questions from Your Documents (RAG Knowledge Assistants) (5)](#answer-questions-from-your-documents-rag-knowledge-assistants)
+- [Give Agents Persistent Memory (Stateful Agents) (2)](#give-agents-persistent-memory-stateful-agents)
+- [Find and Close More Sales with Smarter Outreach (2)](#find-and-close-more-sales-with-smarter-outreach)
+- [Turn Data into Decisions (Text to SQL and BI Agents) (3)](#turn-data-into-decisions-text-to-sql-and-bi-agents)
+- [Automate Web and Desktop Workflows (Browser/RPA Agents) (4)](#automate-web-and-desktop-workflows-browserrpa-agents)
+- [Ship Faster and Fix Issues Sooner (Dev/IT/Ops Agents) (3)](#ship-faster-and-fix-issues-sooner-devitops-agents)
+- [Automate Finance and Document Work (AP/AR, Invoices, Contracts) (5)](#automate-finance-and-document-work-apar-invoices-contracts)
+- [Hire and Manage Teams Efficiently (HR Agents) (2)](#hire-and-manage-teams-efficiently-hr-agents)
+- [Build and Orchestrate with Agent Frameworks (Your “Platform Layer”) (7)](#build-and-orchestrate-with-agent-frameworks-your-platform-layer)
+- [Ship Safely with Observability, Evaluation, and Guardrails (6)](#ship-safely-with-observability-evaluation-and-guardrails)
+- [Make Meetings Useful Again (Notes, Actions, and Follow ups) (2)](#make-meetings-useful-again-notes-actions-and-follow-ups)
+
 ---
 
 ### Automate Customer Support and Improve Response Time
