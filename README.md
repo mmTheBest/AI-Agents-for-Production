@@ -81,7 +81,6 @@ Now imagine what ten well-scoped agents could do.
 ## Part2: Open Source AI Agent Examples You Can Explore Today
 Below is a curated, **benefit oriented** collection of open source agent projects. Each entry links to its repo and states what it helps you achieve.
 
-**Entry format:** **Project** — [GitHub](link) | One‑sentence outcome.
 
 **Table of contents (with counts):**
 - [Automate Customer Support and Improve Response Time (6)](#automate-customer-support-and-improve-response-time)
