@@ -89,7 +89,7 @@ Below is a curated, **benefit oriented** collection of open source agent project
 - [Find and Close More Sales with Smarter Outreach (2)](#find-and-close-more-sales-with-smarter-outreach)
 - [Turn Data into Decisions (Text to SQL and BI Agents) (3)](#turn-data-into-decisions-text-to-sql-and-bi-agents)
 - [Automate Web and Desktop Workflows (Browser/RPA Agents) (4)](#automate-web-and-desktop-workflows-browserrpa-agents)
-- [Ship Faster and Fix Issues Sooner (Dev/IT/Ops Agents) (3)](#ship-faster-and-fix-issues-sooner-devitops-agents)
+- [Ship Faster and Fix Issues Sooner (Dev/IT/Ops Agents) (6)](#ship-faster-and-fix-issues-sooner-devitops-agents)
 - [Automate Finance and Document Work (AP/AR, Invoices, Contracts) (5)](#automate-finance-and-document-work-apar-invoices-contracts)
 - [Hire and Manage Teams Efficiently (HR Agents) (2)](#hire-and-manage-teams-efficiently-hr-agents)
 - [Build and Orchestrate with Agent Frameworks (Your “Platform Layer”) (7)](#build-and-orchestrate-with-agent-frameworks-your-platform-layer)
@@ -166,8 +166,11 @@ Below is a curated, **benefit oriented** collection of open source agent project
 | Project | What it helps you achieve |
 |---|---|
 | **OpenHands** — [GitHub](https://github.com/OpenHands/OpenHands) | Get an autonomous developer/ops agent that edits code, runs tools, and follows multi‑step plans. |
-| **OpenDevin** — [GitHub](https://github.com/OpenDevin/OpenDevin) | Use a software engineer agent that reads repos, proposes changes, and executes tasks. |
+| **Aider** — [GitHub](https://github.com/aider-ai/aider) | Pair‑program with an AI in your terminal that edits multiple files, auto‑commits, and works with any LLM backend. |
+| **gptme** — [GitHub](https://github.com/gptme/gptme) | Build persistent, self‑correcting terminal agents equipped with code execution, shell access, and web browsing as composable local tools. |
+| **Cline** — [GitHub](https://github.com/cline/cline) | Add an autonomous coding agent to your IDE that creates and edits files, runs commands, and browses the web with step‑by‑step approval. |
 | **K8sGPT** — [GitHub](https://github.com/k8sgpt-ai/k8sgpt) | Diagnose Kubernetes issues and explain fixes in plain language for SRE and platform teams. |
+| **HolmesGPT** — [GitHub](https://github.com/HolmesGPT/holmesgpt) | Investigate production incidents with an SRE agent that correlates alerts, logs, and metrics to surface root causes. |
 
 ---
 
