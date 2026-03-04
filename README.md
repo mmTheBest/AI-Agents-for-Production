@@ -85,7 +85,7 @@ Below is a curated, **benefit oriented** collection of open source agent project
 **Table of contents (with counts):**
 - [Automate Customer Support and Improve Response Time (6)](#automate-customer-support-and-improve-response-time)
 - [Answer Questions from Your Documents (RAG Knowledge Assistants) (5)](#answer-questions-from-your-documents-rag-knowledge-assistants)
-- [Give Agents Persistent Memory (Stateful Agents) (2)](#give-agents-persistent-memory-stateful-agents)
+- [Give Agents Persistent Memory (Stateful Agents) (5)](#give-agents-persistent-memory-stateful-agents)
 - [Find and Close More Sales with Smarter Outreach (2)](#find-and-close-more-sales-with-smarter-outreach)
 - [Turn Data into Decisions (Text to SQL and BI Agents) (3)](#turn-data-into-decisions-text-to-sql-and-bi-agents)
 - [Automate Web and Desktop Workflows (Browser/RPA Agents) (4)](#automate-web-and-desktop-workflows-browserrpa-agents)
@@ -128,6 +128,12 @@ Below is a curated, **benefit oriented** collection of open source agent project
 |---|---|
 | **Letta** — [GitHub](https://github.com/letta-ai/letta) | Build stateful agents with explicit memory and long-lived context management for production workflows. |
 | **mem0** — [GitHub](https://github.com/mem0ai/mem0) | Add a drop-in memory layer to agents so they can remember users, tasks, and prior outcomes across sessions. |
+| **Memvid** — [GitHub](https://github.com/memvid/memvid) | Replace complex RAG pipelines with a serverless, single‑file memory layer that gives agents instant retrieval and long‑term recall. |
+| **Memori** — [GitHub](https://github.com/MemoriLabs/Memori) | Store and query agent memory in SQL, providing a native relational memory layer for multi‑agent systems. |
+| **MemOS** — [GitHub](https://github.com/MemTensor/MemOS) | Give agents a memory operating system that persists learned skills across tasks, enabling cross‑task reuse and self‑evolution. |
+| **Memvid** — [GitHub](https://github.com/memvid/memvid) | Replace complex RAG pipelines with a serverless, single‑file memory layer that gives agents instant retrieval and long‑term recall. |
+| **Memori** — [GitHub](https://github.com/MemoriLabs/Memori) | Store and query agent memory through a SQL‑native interface designed for multi‑agent systems and structured recall. |
+| **MemOS** — [GitHub](https://github.com/MemTensor/MemOS) | Give agents a memory operating system that enables persistent skill memory for cross‑task reuse and self‑evolution. |
 
 ---
 
