@@ -94,7 +94,7 @@ Below is a curated, **benefit oriented** collection of open source agent project
 - [Hire and Manage Teams Efficiently (HR Agents) (2)](#hire-and-manage-teams-efficiently-hr-agents)
 - [Build and Orchestrate with Agent Frameworks (Your “Platform Layer”) (7)](#build-and-orchestrate-with-agent-frameworks-your-platform-layer)
 - [Ship Safely with Observability, Evaluation, and Guardrails (6)](#ship-safely-with-observability-evaluation-and-guardrails)
-- [Make Meetings Useful Again (Notes, Actions, and Follow ups) (2)](#make-meetings-useful-again-notes-actions-and-follow-ups)
+- [Make Meetings Useful Again (Notes, Actions, and Follow ups) (5)](#make-meetings-useful-again-notes-actions-and-follow-ups)
 
 ---
 
@@ -234,6 +234,9 @@ Below is a curated, **benefit oriented** collection of open source agent project
 |---|---|
 | **Meeting Minutes** — [GitHub](https://github.com/Zackriya-Solutions/meeting-minutes) | Generate structured minutes and action items from calls with a privacy first workflow. |
 | **joinly** — [GitHub](https://github.com/joinly-ai/joinly) | Let agents join meetings, capture transcripts, and trigger downstream actions. |
+| **Meetily** — [GitHub](https://github.com/Zackriya-Solutions/meetily) | Run a privacy first local meeting assistant that performs live transcription, diarization, and summary generation without sending audio to the cloud. |
+| **Vexa** — [GitHub](https://github.com/Vexa-ai/vexa) | Deploy meeting bots for Zoom, Meet, and Teams that auto join calls and stream real time transcripts into downstream agent workflows. |
+| **Attendee** — [GitHub](https://github.com/attendee-labs/attendee) | Integrate a universal meeting bot API to automate call attendance, transcript capture, and post meeting follow up pipelines. |
 
 ---
 
